@@ -9,6 +9,8 @@ from pandas import DataFrame,Series
 from PIL import Image
 import numpy as np
 
+#######################################
+
 def main():
     st.markdown("<h1 style= 'text-align: center; color: black;'>近15年美职篮新秀数据分析器</h1>", unsafe_allow_html= True)
     img = Image.open("./picture412.png")
